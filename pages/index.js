@@ -10,15 +10,15 @@ import {usePostsHook} from '../custom_hooks/usePostsHook'
 
 export default function Home() {
     const [ImagesArray,setImagesArray] = useState(null)
-    const [Posts,setPosts] = usePostsHook("hello")
+    const [Posts,setPosts] = useState("hello")
 
-    // useEffect(()=>{
-    //   postService
-    //     .getAll()
-    //     .then(initialPosts=>{
-    //       setPosts(initialPosts)
-    //     })
-    // },[])
+    useEffect(()=>{
+      postService
+        .getAll()
+        .then(initialPosts=>{
+          setPosts(initialPosts)
+        })
+    },[])
     //localStorage.setItem("darkMode","true")
     console.log("set Localstorage ")
     

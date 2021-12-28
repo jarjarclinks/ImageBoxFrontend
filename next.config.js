@@ -15,4 +15,5 @@ module.exports = {
   env:{
     darkMode: true
   }
+  
 }

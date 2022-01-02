@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react'
+import React, { UseEffect, UseState } from 'react'
 import Footer from '../components/Footer'
 import Header from '../components/Header'
 import Image from 'next/image';
@@ -9,9 +9,9 @@ import postService from '../services/posts';
 import usePostsHook from '../custom_hooks/usePostsHook'
 function grid() {
   var curDarkMode;
-  const [Posts,setPosts] = useState([])
+  const [Posts,setPosts] = UseState([])
   
-  useEffect(()=>{
+  UseEffect(()=>{
     postService.getAll()
     .then(initialPosts=>{
       setPosts(initialPosts)

@@ -3,16 +3,16 @@ import Image from 'next/image'
 import Feed from '../components/Feed'
 import LandingPage from '../components/LandingPage'
 import Footer from '../components/Footer'
-import { useEffect, useState } from 'react'
+import { UseEffect, UseState } from 'react'
 import { Memes } from '../components/Images'
 import postService from '../services/posts'
 import {usePostsHook} from '../custom_hooks/usePostsHook'
 
 export default function Home() {
-    const [ImagesArray,setImagesArray] = useState(null)
-    const [Posts,setPosts] = useState("hello")
+    const [ImagesArray,setImagesArray] = UseState(null)
+    const [Posts,setPosts] = UseState("hello")
 
-    useEffect(()=>{
+    UseEffect(()=>{
       postService
         .getAll()
         .then(initialPosts=>{

@@ -1,8 +1,8 @@
-import {React,useEffect,useState} from 'react';
+import {React,UseEffect,UseState} from 'react';
 import {ChevronRightIcon,ChevronLeftIcon} from "@heroicons/react/outline";
 import { Memes } from '../components/images';
 import NavIcon from '../components/NavIcon';
-import { useHistory } from 'react-router-dom';
+import { UseHistory } from 'react-router-dom';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
 import CarouselCard from '../components/CarouselCard';
@@ -10,8 +10,8 @@ import postService from '../services/posts';
 import { AiFillRest } from 'react-icons/ai';
 import usePostsHook from '../custom_hooks/usePostsHook';
 function Carousel() {
-  const history = useHistory();
-  const [Posts,setPosts] = useState([
+  const history = UseHistory();
+  const [Posts,setPosts] = UseState([
     {
       picture:
       "https://images.unsplash.com/photo-1488554378835-f7acf46e6c98?",
@@ -21,9 +21,9 @@ function Carousel() {
   ])
 
   //const { Posts = [] } = usePostsHook('http://localhost:3001/api/posts')
-  const [currImage,setCurrImage] = useState(0)
+  const [currImage,setCurrImage] = UseState(0)
   
-  useEffect(()=>{
+  UseEffect(()=>{
     postService.getAll()
     .then(initialPosts=>{
       console.log("in Useeffect")

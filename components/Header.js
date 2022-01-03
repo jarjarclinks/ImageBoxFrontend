@@ -39,14 +39,14 @@ function Header() {
       </h2>
       </a>
       
-      {asPath == "/carousel"
+      {asPath == "/Carousel"
       &&
       <div className = "flex justify-center flex-grow">
         
-        <a href = "/carousel">
+        <a href = "/Carousel">
         <HeaderIcon active Icon = {PhotographIcon}/>
         </a>
-        <a href = "/grid">
+        <a href = "/Grid">
         <HeaderIcon Icon = {ViewGridAddIcon}/>
         </a>
         
@@ -54,13 +54,13 @@ function Header() {
       }
       
       { 
-      asPath == "/grid" &&
+      asPath == "/Grid" &&
           <div className = "flex justify-center flex-grow">
         
-          <a href = "/carousel">
+          <a href = "/Carousel">
           <HeaderIcon Icon = {PhotographIcon}/>
           </a>
-          <a href = "/grid">
+          <a href = "/Grid">
           <HeaderIcon active Icon = {ViewGridAddIcon}/>
           </a>
           

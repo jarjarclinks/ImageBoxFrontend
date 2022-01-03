@@ -9,7 +9,7 @@ function LandingPage(props) {
   const router = useRouter();
 
   const HandleClick = ()=>{
-    router.push('/grid');
+    router.push('/Grid');
   }
   return (
     <div className="flex relative w-screen h-screen bg-gray-200">

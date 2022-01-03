@@ -4,7 +4,7 @@ import Feed from '../components/Feed'
 import LandingPage from '../components/LandingPage'
 import Footer from '../components/Footer'
 import { useEffect, useState } from 'react'
-import { Memes } from '../components/Images'
+import { Memes } from '../components/Memes'
 import postService from '../services/posts'
 import {usePostsHook} from '../custom_hooks/usePostsHook'
 

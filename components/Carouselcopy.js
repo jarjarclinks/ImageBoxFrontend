@@ -3,7 +3,7 @@ import {React,useEffect,useState} from 'react';
 import Image from 'next/image';
 import {ArrowCircleRightIcon,ArrowCircleLeftIcon} from "@heroicons/react/outline";
 //import NavIcon from '..components/NavIcon';
-import { Memes } from './images';
+import { Memes } from './Memes';
 import NavIcon from './NavIcon';
 import { useHistory } from 'react-router-dom';
 import Header from './Header';

@@ -14,7 +14,6 @@ module.exports = {
   },
   env:{
     darkMode: true
-  },
-  distDir: 'build'
+  }
   
 }

@@ -1,3 +1,20 @@
+## ImageBox
+
+[ImageBox](https://image-box.vercel.app) is a wallpaper grid/carousel with features built in and under development.
+
+It is built using [Next.js](https://nextjs.org/) and deployed on [`Vercel`](https://vercel.com).
+
+The backend is built using [Node.js](https://nodejs.org/) and deployed on [`Heroku`](https://heroku.com/).
+
+It uses NoSQL Document Database [MongoDB Atlas](`https://mongodb.com/).
+
+It boasts of the following:
+1)A soothing online wallpaper carousel
+2)Fast loading courtesy of Nextjs
+3)A thoughtful dark mode
+4)Features on the way.
+
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started

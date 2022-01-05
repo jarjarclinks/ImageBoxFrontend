@@ -22,7 +22,10 @@ It boasts of the following:
 
 3)A thoughtful dark mode.
 
-4)Features on the way.
+![grid](https://user-images.githubusercontent.com/45365873/148162418-2769704b-7233-4d01-ad32-354669c49c8a.PNG)
+
+
+4)Some broken features.
 
 
 

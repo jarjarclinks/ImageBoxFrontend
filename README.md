@@ -2,6 +2,8 @@
 
 [ImageBox](https://image-box.vercel.app) is a wallpaper grid/carousel with features built in and under development.
 
+![front](https://user-images.githubusercontent.com/45365873/148162065-789cfc37-aa6b-4453-93f6-d7fdabe75333.PNG)
+
 It is built using [Next.js](https://nextjs.org/) and deployed on [`Vercel`](https://vercel.com).
 
 The backend is built using [Node.js](https://nodejs.org/) and deployed on [`Heroku`](https://heroku.com/).

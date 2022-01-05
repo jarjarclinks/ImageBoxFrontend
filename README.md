@@ -6,7 +6,7 @@ It is built using [Next.js](https://nextjs.org/) and deployed on [`Vercel`](http
 
 The backend is built using [Node.js](https://nodejs.org/) and deployed on [`Heroku`](https://heroku.com/).
 
-It uses NoSQL Document Database [MongoDB Atlas](`https://www.mongodb.com/`).
+It uses NoSQL Document Database [MongoDB Atlas](https://www.mongodb.com/).
 
 It boasts of the following:
 1)A soothing online wallpaper carousel

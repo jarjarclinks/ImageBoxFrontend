@@ -15,6 +15,9 @@ It boasts of the following:
 
 1)A soothing online wallpaper carousel.
 
+![carousel](https://user-images.githubusercontent.com/45365873/148162203-66cc2445-8077-4a1f-8f36-5b35d46bccca.PNG)
+
+
 2)Fast loading courtesy of Nextjs.
 
 3)A thoughtful dark mode.

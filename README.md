@@ -8,10 +8,15 @@ The backend is built using [Node.js](https://nodejs.org/) and deployed on [`Hero
 
 It uses NoSQL Document Database [MongoDB Atlas](https://www.mongodb.com/).
 
+
 It boasts of the following:
-1)A soothing online wallpaper carousel
-2)Fast loading courtesy of Nextjs
-3)A thoughtful dark mode
+
+1)A soothing online wallpaper carousel.
+
+2)Fast loading courtesy of Nextjs.
+
+3)A thoughtful dark mode.
+
 4)Features on the way.
 
 

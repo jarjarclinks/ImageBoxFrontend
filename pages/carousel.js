@@ -62,22 +62,12 @@ console.log("in carousel")
     <div h-screen>
       <Header/>
       <div className = "flex bg-gray-100 dark:bg-gray-800 h-screen w-screen justify-center items-center">
-      <div className = "flex items-center relative pb-40 pt-20">
+      <div className = "flex items-center relative pb-40 pt-20 transform transition duration-500">
        
     <div className = "z-50" onClick = {LeftImage}>
       <NavIcon Icon = {ChevronLeftIcon}/>
       </div>
-        {/* <div className = "bg-red-400 pt-40"></div> */}
-       
           <CarouselCard picture = {Posts[currImage].picture} caption = {Posts[currImage].caption} author = {Posts[currImage].author}/>
-        
-        {/* <img
-        className = "z-10 w- h-full rounded-lg"
-        src = {Memes[currImage].picture}
-        alt = "sliderimage"
-        
-        layout = "fixed"
-        /> */}
         
       <div className = "z-50" onClick = {RightImage}>
       <NavIcon Icon = {ChevronRightIcon}/>

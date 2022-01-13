@@ -1,6 +1,7 @@
 import {React,useEffect,useState} from 'react';
+
 import {ChevronRightIcon,ChevronLeftIcon} from "@heroicons/react/outline";
-import { Memes } from '../components/images';
+import { Memes } from '../components/Memes';
 import NavIcon from '../components/NavIcon';
 import { useHistory } from 'react-router-dom';
 import Header from '../components/Header';
@@ -26,7 +27,7 @@ function Carousel() {
   useEffect(()=>{
     postService.getAll()
     .then(initialPosts=>{
-      console.log("in Useeffect")
+      console.log("in useEffect")
       console.log(initialPosts)
       setPosts(initialPosts)
     })

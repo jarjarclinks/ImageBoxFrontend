@@ -10,6 +10,7 @@ import {
 }from "@heroicons/react/outline"
 import HeaderIcon from './HeaderIcon'
 import { useRouter } from 'next/router';
+import Link from 'next/link'
 
 function Header() {
   
@@ -33,36 +34,47 @@ function Header() {
   }
   return (
     <div className = "sticky top-0 z-50 bg-white dark:bg-gray-700 flex items-center p-2 lg:px-5 shadow-lg">
-      <a href = "/">
+      <Link href = "/">
+        <a>
       <h2 className = "flex text-xl md:text-3xl text-blue-900 dark:text-blue-500 font-bold md:text-2xl transform transition duration-500 hover:scale-110">
         Image<span className = "text-yellow-900 dark:text-yellow-500">Box</span>
       </h2>
       </a>
+      </Link>
       
-      {asPath == "/carousel"
+      {asPath == "/Carousel"
       &&
       <div className = "flex justify-center flex-grow">
         
-        <a href = "/carousel">
+        <Link href = "/Carousel">
+          <a>
         <HeaderIcon active Icon = {PhotographIcon}/>
         </a>
-        <a href = "/grid">
+        </Link>
+        
+        <Link href = "/Grid">
+          <a>
         <HeaderIcon Icon = {ViewGridAddIcon}/>
         </a>
-        
+        </Link>
       </div>
       }
       
       { 
-      asPath == "/grid" &&
+      asPath == "/Grid" &&
           <div className = "flex justify-center flex-grow">
-        
-          <a href = "/carousel">
+          
+          <Link href = "/Carousel">
+            <a>
           <HeaderIcon Icon = {PhotographIcon}/>
           </a>
-          <a href = "/grid">
+          </Link>
+
+          <Link href = "/Grid">
+            <a>
           <HeaderIcon active Icon = {ViewGridAddIcon}/>
           </a>
+          </Link>
           
         </div>
       }

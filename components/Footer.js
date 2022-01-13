@@ -7,7 +7,7 @@ import {
 } from "@heroicons/react/solid"
 import FooterIcon from './FooterIcon'
 import HeaderIcon from './HeaderIcon'
-
+import Link from 'next/link'
 
 function Footer() {
   return (
@@ -22,12 +22,16 @@ function Footer() {
     {/* <a href="https://www.w3docs.com/">
       <span className ="link text-gray-200">Hi man</span>
     </a> */}
-    <a href="https://github.com/jarjarclinks">  
+    <Link href="https://github.com/jarjarclinks">  
+    <a>
           <span><FooterIcon Icon = {AiFillGithub}/></span>
         </a>
-    <a href = "mailto:shreyansh2678@gmail.com">
+        </Link>
+    <Link href = "mailto:shreyansh2678@gmail.com">
+      <a>
       <span><FooterIcon Icon = {MailIcon}/>    </span>
       </a>
+      </Link>
     
     
        </div>

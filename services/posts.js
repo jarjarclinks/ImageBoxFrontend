@@ -1,9 +1,11 @@
 import axios from 'axios'
-const baseUrl = 'http://localhost:3001/api/posts'
+const baseUrl = "https://blooming-bayou-98058.herokuapp.com/api/posts"
 
 
 const getAll = () =>{
   const request = axios.get(baseUrl)
+  console.log("inside getAll")
+  request.then(response=>(console.log(response.data)))
   const nonExisting = {
     picture :'This post does not exist',
     author: "NA",

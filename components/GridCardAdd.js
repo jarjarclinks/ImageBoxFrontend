@@ -2,7 +2,7 @@ import React, { useRef, useState } from 'react'
 import {
   PlusCircleIcon
 } from "@heroicons/react/solid"
-import { Memes } from './Images'
+import { Memes } from './Memes'
 function ImageCardAdd() {
   const filePickerRef = useRef(null)
   const [imageToPost,setImageToPost] = useState(null)

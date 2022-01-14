@@ -18,7 +18,6 @@ function LandingPage(props) {
       alt = "background"
       src = "https://images.unsplash.com/photo-1520038410233-7141be7e6f97?ixlib=rb-1.2.1"
       layout = "fill"
-      objectFit='cover'
       />
       </div>
       <div className = "absolute bottom-20 right-60 rounded-2xl overflow-hidden shadow-lg backdrop-filter backdrop-blur-md">
